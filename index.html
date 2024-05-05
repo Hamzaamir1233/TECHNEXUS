@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Premium Accessories" />
+
+    <title>TECH NEXUS</title>
+    <link rel="icon" href="images/logo-md.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="images/logo-md.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="images/logo-md.png" />
+
+    <link rel="stylesheet" href="css/style-prefix.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+<style>
+  .btn.btn--accent{
+    padding: 20px,16.2px;
+  }
+</style>
+
+  <body>
+    <header>
+      <nav class="nav collapsible">
+      <a aria-label="wave" class="nav__brand" style="width:300px; max-width: 50%;" href="/"
+          ><img src="images/logo.png" alt=""
+        /></a>
+        <svg class="icon icon--white nav__toggler">
+          <use href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="Products.html">Product</a>
+          </li>
+          <li class="nav__item">
+            <a href="#specification">Blog</a>
+          </li>
+          
+          <div class="header-user-actions">
+
+            <button class="action-btn">
+              <ion-icon name="person-outline"></ion-icon>
+            </button>
+        
+            <button class="action-btn">
+              <ion-icon name="heart-outline"></ion-icon>
+              <span class="count">0</span>
+            </button>
+
+            <a href="Cart.html"><button class="action-btn">
+              <ion-icon name="bag-handle-outline"></ion-icon>
+              <span class="count">0</span>
+            </button></a>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="mobile-bottom-navigation">
+  
+      <a href="Cart.html"><button class="action-btn">
+        <ion-icon name="bag-handle-outline"></ion-icon>
+        <span class="count">0</span>
+      </button></a>
+
+      <button class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="heart-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      
+
+    </div>
+
+
+    <section class="block block--dark block--skewed-left hero" id="hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content">
+          <h1 class="block__heading">Introducing Volve</h1>
+          <p class="hero__tagline">Smarter Way to Elevate Every Look</p>
+          <a target="_blank" href="#" class="btn btn--accent" style="background-color: #049951; " >Get Started</a
+          >
+        </header>
+        <picture data-aos="fade-left" data-aos-duration="1000">
+          <source
+            type="image/webp"
+            srcset="images/banner.webp 1x, images/banner@2x.webp 2x"/>
+          <source
+            type="image/png"
+            srcset="images/banner.png 1x, images/banner@2x.png 2x"/>
+          <img class="hero__image" src="images/banner.png" alt="" />
+        </picture>
+      </div>
+    </section>
+    <section
+      data-aos="fade-up"
+      class="block container block-plans"
+      id="product">
+      
+      <header data-aos="zoom-in-up" class="block__header">
+        <h2 style="color: black;">Choose Your Volve</h2>
+        <p>
+          Emphasizes the watch selection and adds a touch of sophistication
+        </p>
+      </header>
+      <div class="grid grid--1x3 container">
+        <div class="product">
+          <div class="card card--secondary">
+            <header class="card__header" style="background-color: #049951;">
+              <picture class="product__image">
+                <source
+                  type="image/webp"
+                  srcset="images/banner.webp 1x, images/banner@2x.webp 2x"
+                />
+                <source
+                  type="image/png"
+                  srcset="images/banner.png 1x, images/banner@2x.png 2x"
+                />
+
+                <img src="images/banner.png" alt="" />
+              </picture>
+            </header>
+            <div class="card__body">
+              <div class="product__content">
+                <h3 class="product__heading" style="color: black;">Volve Basic</h3>
+                <div class="product__price">
+                  <span>$50 </span>
+                  <span class="product__price-old">$40</span>
+                </div>
+              </div>
+              <button class="btn btn--secondary btn--block" >Buy</button>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="card card--secondary">
+            <header class="card__header" style="background-color: #049951;">
+              <picture class="product__image">
+                <source
+                  type="image/webp"
+                  srcset="
+                    images/products/watch1.webp    1x,
+                    images/products/watch1@2x.webp 2x
+                  "
+                />
+                <source
+                  type="image/png"
+                  srcset="
+                    images/product/watch1.png     1x,
+                    images/products/watch1@2x.png 2x
+                  "
+                />
+
+                <img src="images/banner.png" alt="" />
+              </picture>
+            </header>
+            <div class="card__body">
+              <div class="product__content">
+                <h3 class="product__heading" style="color: black;">Volve Z</h3>
+                <div class="product__price">
+                  <span>$50 </span>
+                  <span class="product__price-old">$40</span>
+                </div>
+              </div>
+              <button class="btn btn--secondary btn--block">Buy</button>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="card card--secondary">
+            <header class="card__header" style="background-color: #049951;">
+              <picture class="product__image">
+                <source
+                  type="image/webp"
+                  srcset="
+                    images/products/watch2.webp    1x,
+                    images/products/watch2@2x.webp 2x
+                  "
+                />
+                <source
+                  type="image/png"
+                  srcset="
+                    images/product/watch2.png     1x,
+                    images/products/watch2@2x.png 2x
+                  "
+                />
+
+                <img src="images/products/watch2.png" alt="" />
+              </picture>
+            </header>
+            <div class="card__body">
+              <div class="product__content">
+                <h3 class="product__heading" style="color: black;">Volve Z Pro</h3>
+                <div class="product__price">
+                  <span>$50 </span>
+                  <span class="product__price-old">$40</span>
+                </div>
+              </div>
+              <button class="btn btn--secondary btn--block">Buy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="block block--dark block--skewed-left specification"
+      id="specification"
+    >
+      <header class="block__header" data-aos="zoom-in">
+        <h2>Specification</h2>
+      </header>
+      <div class="grid grid--1x3 container">
+        <ul data-aos="fade-up" class="list specification__content">
+          <li>
+            <svg class="icon icon--primary">
+              <use href="images/new_sprite.svg#heartrate"></use>
+            </svg>
+          </li>
+          <li>Vital Monitor App</li>
+        </ul>
+        <ul
+          data-aos="fade-up"
+          data-aos-delay="100"
+          class="list specification__content"
+        >
+          <li>
+            <svg class="icon icon--primary">
+              <use href="images/new_sprite.svg#water"></use>
+            </svg>
+          </li>
+          <li>Water resistant</li>
+        </ul>
+        <ul
+          data-aos="fade-up"
+          data-aos-delay="100"
+          class="list specification__content"
+        >
+          <li>
+            <svg class="icon icon--primary">
+              <use href="images/new_sprite.svg#battery"></use>
+            </svg>
+          </li>
+          <li>Up to 18 hours</li>
+        </ul>
+        <ul
+          data-aos="fade-up"
+          data-aos-delay="100"
+          class="list specification__content"
+        >
+          <li>
+            <svg class="icon icon--primary">
+              <use href="images/new_sprite.svg#gps"></use>
+            </svg>
+          </li>
+          <li>Available cellular connectivity</li>
+        </ul>
+        <ul
+          data-aos="fade-up"
+          data-aos-delay="100"
+          class="list specification__content"
+        >
+          <li>
+            <svg class="icon icon--primary">
+              <use href="images/new_sprite.svg#wear"></use>
+            </svg>
+          </li>
+          <li>45 mm stainless steel case</li>
+        </ul>
+        <ul
+          data-aos="fade-up"
+          data-aos-delay="100"
+          class="list specification__content"
+        >
+          <li>
+            <svg class="icon icon--primary">
+              <use href="images/new_sprite.svg#relax"></use>
+            </svg>
+          </li>
+          <li>Carbon-neutral combinations available</li>
+        </ul>
+      </div>
+    </section>
+    <section class="block container" id="features">
+      <header class="block__header" >
+        <h2 style="color: black;">Quick Product Highlights</h2>
+        <p>
+          Key Benefits at a Glance. Discover What Makes Us Different.
+        </p>
+      </header>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="zoom-in-up">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="images/sprite.svg#easy"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading" style="color: black;">Super Easy to Use</h3>
+          <p>
+            No manuals needed! This watch boasts intuitive features and a clean design for a fuss-free timekeeping experience.
+          </p>
+          <a href="#" target="_blank" class="link-arrow" style="color: #049951;">Learn More</a>
+        </div>
+        <picture data-aos="zoom-in-up">
+          <source
+            type="image/webp"
+            srcset="images/wear.webp 1x, images/wear@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="images/wear.jpg 1x, images/wear@2x.jpg 2x"
+          />
+          <img class="feature__image" src="images/wear@2x.jpg" alt="" />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-up">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="images/new_sprite.svg#relax"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading" style="color: black;">Easy Health Stats</h3>
+          <p>
+            Track your health on the go! This watch monitors key stats like heart rate and steps with ease. 
+            User-friendly interface lets you see your progress at a glance. Stay motivated, stay healthy.
+          </p>
+          <a href="#" target="_blank" class="link-arrow" style="color: #049951;">Learn More</a>
+        </div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="images/stats.webp 1x, images/stats@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="images/stats.jpg 1x, images/stats@2x.jpg 2x"
+          />
+          <img class="feature__image" src="images/stats@2x.jpg" alt="" />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-up">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="images/sprite.svg#snap"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading" style="color: black;">Full-Touch 2.5D Curved Display</h3>
+          <p>
+            This watch boasts a stunning 2.5D curved display with full-touch functionality for effortless navigation. 
+            Swipe through features and notifications in style.
+          </p>
+          <a href="#" target="_blank" class="link-arrow" style="color: #049951;">Learn More</a>
+        </div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="images/compact.webp 1x, images/compact@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="images/compact.jpg 1x, images/compact@2x.jpg 2x"
+          />
+          <img class="feature__image" src="images/compact@2x.jpg" alt="" />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-up">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="images/new_sprite.svg#heartrate"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading" style="color: black;">Keep Track Of Your SpO2 Level</h3>
+          <p>
+            Monitor your blood oxygen (SpO2) levels with this innovative watch. 
+            Gain valuable health insights and optimize your workouts.  Peace of mind, right on your wrist. 
+          </p>
+          <a href="#" target="_blank" class="link-arrow" style="color: #049951;">Learn More</a>
+        </div>
+        <picture data-aos="zoom-in-up">
+          <source
+            type="image/webp"
+            srcset="images/watchblue.webp 1x, images/watchblue@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="images/watchblue.jpg 1x, images/watchblue@2x.jpg 2x"
+          />
+          <img class="feature__image" src="images/watchblue@2x.jpg" alt="" />
+        </picture>
+      </article>
+    </section>
+    <section class="block block--dark block--skewed-right block-showcase">
+      <header class="block__header">
+        <h2 >Best Fitness Tracker Smartwatch for Everyone</h2>
+      </header>
+      <div class="container grid grid--1x2">
+        <picture data-aos="fade-right" class="block-showcase__image">
+          <source
+            type="image/webp"
+            srcset="images/banner.webp 1x, images/banner@2x.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="images/banner.png 1x, images/banner@2x.png 2x"
+          />
+          <img src="images/banner.png" alt="" />
+        </picture>
+        <ul class="list" data-aos="fade-up">
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use href="images/new_sprite.svg#gym"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Upgrade Your Well-Being</h3>
+                <p>
+                  Monitor health, stay active, and manage stress with this versatile watch. 
+                  Invest in your well-being, one step (or heartbeat) at a time.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use href="images/new_sprite.svg#vital"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Level Up Your Wellness Game</h3>
+                <p>
+                  Tracks stats, monitors sleep, and coaches you to move.
+                  Achieve fitness goals, optimize recovery, and conquer your wellness journey. 
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use href="images/new_sprite.svg#alarm"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">
+                  Daily activity tracker and remainder
+                </h3>
+                <p>
+                  Monitor your daily activity and set custom reminders to keep you focused. 
+                  Hit those steps, stay hydrated, and conquer your health goals!
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    
+    <div class="container">
+      <div class="callout callout--primary callout-signup"  style="background-color: #049951;">
+        <div class="grid grid--1x2">
+          <div class="callout__content">
+            <h2 class="callout__heading" >Subscribe to Our Newsletter</h2>
+            <p>
+              Subscribe our newsletter and get exclusive access to new product updates,
+              health tips, and inspiring wellness stories delivered straight to your inbox.
+              We promise to keep it relevant and avoid the spam! 
+            </p>
+          </div>
+          <button id="subscribe" class="btn btn--secondary btn--stretched">
+            Subscribe
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Products</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use href="images/sprite.svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Smart Watch</a></li>
+              <li><a href="#">Head Phone</a></li>
+              <li><a href="#">Pods</a></li>
+              <li><a href="#">Fit Bit</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Company</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use href="images/sprite.svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Affiliates</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Support</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use href="images/sprite.svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Store</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use href="images/sprite.svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Find a Store</a></li>
+              <li><a href="#">Order Status</a></li>
+              <li><a href="#">Shopping Help</a></li>
+            </ul>
+          </div>
+        </section>
+        <div class="footer__brand">
+          <img src="images/logo.png" alt="" />
+          <p class="footer__copyright">Copyright &copy; 2023</p>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="main.js"></script>
+
+    <script src="js/script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
